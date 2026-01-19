@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MENU</title>
+<style>
+body {
+  margin: 0;
+  background: #111;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  width: 90%;
+}
+a {
+  text-decoration: none;
+}
+.tile {
+  padding: 50px 20px;
+  border-radius: 30px;
+  font-size: 34px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 15px 40px rgba(0,0,0,.6);
+}
+.instagram { background: #C13584; color: white; }
+.pornhub { background: #ff9000; color: black; }
+.facebook { background: #1877f2; color: white; }
+</style>
+</head>
+
+<body>
+<div class="grid">
+  <a href="https://www.instagram.com">
+    <div class="tile instagram">Instagram</div>
+  </a>
+
+  <a href="https://www.pornhub.com">
+    <div class="tile pornhub">Pornhub</div>
+  </a>
+
+  <a href="https://www.facebook.com">
+    <div class="tile facebook">Facebook</div>
+  </a>
+</div>
+</body>
+</html>
